@@ -513,9 +513,7 @@ a {
     background-size: cover;
     padding: 120px 110px 120px 120px;
 }
-#lll{
-    color: #000;
-}
+
 .p-h1 {
     width: 380px;
     font-size: 45px;
@@ -683,11 +681,3 @@ font-size: small;
     /* overflow: hidden; 
     
 } */
-
-
-
-
-
-/* ************************************** section 16 ******************************** */
-
-

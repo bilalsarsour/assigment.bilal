@@ -537,8 +537,8 @@
                     <div class="row g-0">
                     
                       <div class="col-md-8 d-txt">
-                          <h6 class="card-title text-danger mb-3 ">We create premium designs and technology</h>
-                          <p class="card-text h1 p-h1 mb-3" id="lll">we design brand, digital experience that engage the right customers.</p>
+                          <h5 class="card-title text-danger mb-3 ">We create premium designs and technology</h5>
+                          <p class="card-text h1 p-h1 mb-3">we design brand, digital experience that engage the right customers.</p>
                           <p class="card-text p-h12"><small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Quasi nihil, veniam quis corrupti aliquam eum reiciendis harum voluptates nesciunt voluptate
                             Quasi nihil, veniam quis corrupti aliquam eum reiciendis harum voluptates nesciunt voluptate,
@@ -641,32 +641,41 @@
     <!-- ******************************************** section 14 ************************ -->
 
 <section id="sec14">
-    <section id="image-scroll" class="d-flex ">
-        <div>
-            <img src="images/99999.webp" alt="">
-        </div>
-        <div>
-            <img src="images/55555.webp" alt="">
-        </div>
-        <div>
-            <img src="images/333333.webp" alt="">
-        </div>
-        <div>
-            <img src="images/444444.webp" alt="">
-        </div>
-        <div>
-            <img src="images/666666.webp" alt="">
-        </div>
-        <div>
-            <img src="images/8888888.webp" alt="">
-        </div>
-        <div>
-            <img src="images/44444444444.webp" alt="">
-        </div>
-        <div>
-            <img src="images/10.webp" alt="">
-        </div>
-    </section>
+    <div class="d-flex col">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active d-flex">
+                <img src="images/sec141.webp" alt="...">
+                <img src="images/sec142.webp"  alt="...">
+                <img src="images/sec142.webp"  alt="...">
+                <img src="images/sec142.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sec142.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sec143.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sec144.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/logo-5.png.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/logo-6.png.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/logo-7.png.webp"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/logo-8.png.webp"  alt="...">
+              </div>
+            </div>
+          </div>
+      
+    </div>
 </section>
 
     <!-- ******************************************** section 15 ************************ -->
@@ -727,7 +736,35 @@
     </section>
 
 
+ <!-- ******************************** section 16 *********************************** -->
 
+<section>
+    <div>
+        <div class="card" style="width: 18rem; ">
+            <img src="images/latest-blog5-350x233.jpg.webp" class="card-img-top sec16-img" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+</section>
+
+
+
+    <script>
+
+        window.onscroll = function () {
+            const h = document.querySelector('.navbar');
+            if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 590) {
+                h.classList.add('bg')
+            } else {
+                h.classList.remove('bg')
+            }
+        }
+    </script>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
